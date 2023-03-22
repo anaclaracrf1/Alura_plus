@@ -13,11 +13,7 @@ body {
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
     font-size: 15px;
-}
-
-img{
-    display: block;
-    justify-content: center;
+    font-weight: 400;
 }
 
 * {
@@ -27,8 +23,10 @@ img{
 
 .principal {
     background-image: url("imagens/imagem_de_fundo.png");
+    background-repeat: no-repeat; 
     background-size: contain;
-    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -37,21 +35,9 @@ img{
     grid-template-columns: 50% 50%;
 }
 
-.principal_link {
-    text-decoration: none;
-    background-color: var(--azul-botao);
-    border-radius: 0.2rem;
-    color: var(--branco-principal);
-    padding: 0.6rem 5rem;
-}
-
-.principal_link_2 {
-    text-decoration: none;
-    background-color: transparent;
-    padding: 0.5rem 5rem;
-    border: 0.1rem solid var(--branco-principal);
-    border-radius: 0.2rem;
-    color: var(--branco-principal);
+.caixa {
+    margin: 0 6em;
+    
 }
 
 .principal_titulo {
@@ -59,7 +45,55 @@ img{
     font-weight: 600;
 }
 
+.principal_img {
+    display: block;
+    margin: 2em 0.1em 2em 0.1em;
+    text-align: center;
+}
+
+.principal_link {
+    text-decoration: none;
+    display: block; 
+    padding: 1em;
+    background-color: var(--azul-botao);
+    border-radius: 0.2rem;
+    color: var(--branco-principal);
+    margin: 1em;
+}
+
+.principal_link_2 {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    background-color: transparent;
+    margin: 1em;
+    border: 0.1rem solid var(--branco-principal);
+    border-radius: 0.2rem;
+    color: var(--branco-principal);
+}
+
 .container_aviso {
     color: var(--cinza-secundario);
-    font-size: 12px;
+    font-size: 10px;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secundario_img{
+    width: 80%;
+}
+
+.descricao_titulo  {
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--branco-principal);
+    margin-bottom: 0.5em;
+}
+
+.descricao_texto {
+    font-size: 16px;
+    color: var(--cinza-secundario);
 }
