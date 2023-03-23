@@ -108,16 +108,31 @@ body {
     border-radius: 0.2rem;
 }
 
-.dispositivos_lista {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
+.dispositivos {
+    text-align: center;
 }
 
 .dispositivos_titulo {
     font-size: 48px;
+    color: var(--branco-principal);
 }
 
-.dispositivos {
-    text-align: center;
+.dispositivos_lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 6em; 
 }
+
+.lista_item {
+    font-size: 22px;
+    color: var(--branco-principal);
+}
+
+.rodape_lista {
+    display: flex;
+    justify-content: center;
+}
+
+
+
